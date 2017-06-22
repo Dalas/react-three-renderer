@@ -164,8 +164,8 @@ class TextureDescriptor extends THREEElementDescriptor {
         THREE.LinearFilter,
         THREE.LinearMipMapNearestFilter,
       ]),
-      update(texture, magFilter) {
-        texture.magFilter = magFilter;
+      update(texture, minFilter) {
+        texture.minFilter = minFilter;
         if (texture.image) {
           texture.needsUpdate = true;
         }
@@ -208,6 +208,9 @@ class TextureDescriptor extends THREEElementDescriptor {
       }
 
       result = textureLoader.load(props.url, onLoad, onProgress, onError);
+      if (props.hasOwnProperty('minFilter')) {
+        result.minFilter = props.minFilter;
+      }
     } else {
       invariant(false, 'The texture needs a url property.');
     }

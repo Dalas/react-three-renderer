@@ -141,7 +141,7 @@ See [THREE.WebGLRenderer#shadowMapDebug](http://threejs.org/docs/#Reference/Rend
 ### pixelRatio
 ``` number ```: The pixel ratio of the renderer.
 
-Preferred value: window.devicePixelRatio.
+Preferred value: `window.devicePixelRatio`. Recommended for High DPI screens (e.g. Retina).
 
 **Default**: `1`
 
@@ -328,5 +328,5 @@ You are encouraged to use [refs](https://facebook.github.io/react/docs/more-abou
 
 ===
 
-|**[View Source](../blob/master/src/lib/React3.js)**|
+|**[View Source](../blob/master/src/lib/React3.jsx)**|
  ---|

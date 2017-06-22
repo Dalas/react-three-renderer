@@ -1,10 +1,13 @@
-> [Wiki](Home) » [[Internal Components]] » [[Geometries]] » **torusKnotGeometry**
+> [Wiki](Home) » [[Internal Components]] » [[Geometries]] » **edgesGeometry**
 
-# torusKnotGeometry
+# edgesGeometry
 
-Creates a [THREE.TorusKnotGeometry](https://threejs.org/docs/#Reference/Geometries/TorusKnotGeometry)
+Creates a [THREE.EdgesGeometry](https://threejs.org/docs/#Reference/Geometries/EdgesGeometry)
 
 ## Attributes
+
+### geometry
+``` one of types [THREE.Geometry, THREE.BufferGeometry] ``` *``` required ```*: Any geometry object.
 
 ### name
 ``` string ```: Name for this geometry.
@@ -41,38 +44,8 @@ once sent to GPU.
 
 **Default**: `false`
 
-### radius
-``` number ```
-
-**Default**: `100`
-
-### tube
-``` number ```
-
-**Default**: `40`
-
-### tubularSegments
-``` number ```
-
-**Default**: `64`
-
-### radialSegments
-``` number ```
-
-**Default**: `8`
-
-### p
-``` number ```: determines, how many times the geometry winds around its axis of rotational symmetry.
-
-**Default**: `2`
-
-### q
-``` number ```: determines, how many times the geometry winds around a circle in the interior of the torus.
-
-**Default**: `3`
-
-### heightScale
-``` number ```
+### thresholdAngle
+``` number ```: An edge is only rendered if the angle (in degrees) between the face normals of the adjoining faces exceeds this value. default = 1 degree.
 
 ### resourceId
 ``` string ```: The resource id of this object, only used if it is placed into [[resources]].
@@ -85,5 +58,5 @@ This component can be added into [&lt;resources/&gt;](resources)! See [[Resource
 
 ===
 
-|**[View Source](../blob/master/src/lib/descriptors/Geometry/TorusKnotGeometryDescriptor.js)**|
+|**[View Source](../blob/master/src/lib/descriptors/Geometry/EdgesGeometryDescriptor.js)**|
  ---|

@@ -31,12 +31,13 @@ Then you can place these components inside to create and assign resources,
   * [[Shapes]]:
     * [[shape]]: Creates a [THREE.Shape](http://threejs.org/docs/#Reference/Extras.Core/Shape)
   * [[Geometries]]:
+    * [[edgesGeometry]]: Creates a [THREE.EdgesGeometry](https://threejs.org/docs/#Reference/Geometries/EdgesGeometry)
     * [[shapeGeometry]]: Creates a [THREE.ShapeGeometry](https://threejs.org/docs/#Reference/Geometries/ShapeGeometry)
     * [[textGeometry]]: Creates a [THREE.TextGeometry](http://threejs.org/docs/#Reference/Extras.Geometries/TextGeometry)
     * [[dodecahedronGeometry]]: Creates a [THREE.DodecahedronGeometry](http://threejs.org/docs/index.html#Reference/Extras.Geometries/DodecahedronGeometry)
     * [[tubeGeometry]]: Creates a [THREE.TubeGeometry](http://threejs.org/docs/#Reference/Extras.Geometries/TubeGeometry)
     * [[extrudeGeometry]]: Creates a [THREE.ExtrudeGeometry](http://threejs.org/docs/#Reference/Extras.Geometries/ExtrudeGeometry)
-    * [[torusKnotGeometry]]: Creates a [THREE.TorusKnotGeometry](http://threejs.org/docs/#Reference/Extras.Geometries/TorusKnotGeometry)
+    * [[torusKnotGeometry]]: Creates a [THREE.TorusKnotGeometry](https://threejs.org/docs/#Reference/Geometries/TorusKnotGeometry)
     * [[torusGeometry]]: Creates a [THREE.TorusGeometry](http://threejs.org/docs/#Reference/Extras.Geometries/TorusGeometry)
     * [[latheGeometry]]: Creates a [THREE.LatheGeometry](http://threejs.org/docs/#Reference/Extras.Geometries/LatheGeometry)
     * [[cylinderGeometry]]: Creates a [THREE.CylinderGeometry](http://threejs.org/docs/#Reference/Extras.Geometries/CylinderGeometry)

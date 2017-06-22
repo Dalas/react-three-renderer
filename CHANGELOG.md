@@ -1,9 +1,19 @@
 CHANGELOG
 ===========
 
-## 3.0.3 ([see diff](https://github.com/toxicFork/react-three-renderer/compare/v3.0.2...v3.0.3))
+## Current Master ([see diff](https://github.com/toxicFork/react-three-renderer/compare/v3.1.0...master))
+
+### Components
+- Fix `minFilter` property of `texture` (#166)
+- Add `edgesGeometry` (#159)
+
+## 3.1.0 ([see diff](https://github.com/toxicFork/react-three-renderer/compare/v3.0.2...v3.1.0))
+
+This is a strange release that was slightly frustrating to implement.
 
 ### Core
+- Fix compatibility for `three@~0.84.0`!
+- Fix compatibility for `react@~15.5.3`!
 - Fix building and testing on Windows (sorry!)
   - Use more gulp and less bash
 - Test that yarn works too (yep)
